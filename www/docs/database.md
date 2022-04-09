@@ -94,7 +94,7 @@ const cluster = new RDS(this, "Cluster", {
 });
 ```
 
-Each migratione file has an `up` and a `down` function. For example, a migration file for PostgreSQL looks like this:
+Each migration file has an `up` and a `down` function. For example, a migration file for PostgreSQL looks like this:
 
 ```js
 async function up(db) {
